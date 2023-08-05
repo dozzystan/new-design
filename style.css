@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Asset/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    /* background: url(Asset/triangle.jpg) no-repeat hsl(257, 40%, 49%);; */
+    font-family: "open san", sans-serif;
+  
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.illus img{
+    width: 100%;
+    margin-top: 3rem;
+}
+.header img{
+    width: 39%;
+    height: 5rem;
+    font-family: "poppins", sans-serif;
+    margin-top: 1.3rem;
+}
+
+.main-inner h2{
+    font-family: "poppins", sans-serif;
+    color: white;
+    text-align: center;
+ 
+}
+.main-inner p{
+    font-family: "open san", sans-serif;
+    color: white;
+    text-align: center;
+   
+}
+
+.main-inner button{
+    width: 50%;
+    height: 2rem;
+    margin: auto;
+    border-radius: 1.5rem;
+    border: none;
+    color: hsl(300, 69%, 71%)
+    
+    
+}
+.main-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+}
+
+@media(min-width:1024px){
+    body{
+        background: url("Asset/bg-desktop.svg")
+        no-repeat hsl(257, 40%, 49%);
+        
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-inner h2{
+        margin-top: 5rem;
+        text-align: start;
+    }
+    .main-inner p{
+        margin-top: 1rem;
+        text-align: start;
+    }
+
+    .main-inner button{
+        margin-top: 1.5rem;
+        margin: 0;
+        width: 25%;
+    }
+
+}
+
