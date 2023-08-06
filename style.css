@@ -63,6 +63,12 @@ body{
     justify-content: space-between;
     height: 15rem;
 }
+footer{
+    width: 7%;
+    display: flex;
+    margin-left: 7.5rem;
+
+}
 
 @media(min-width:1024px){
     body{
@@ -89,5 +95,10 @@ body{
         width: 25%;
     }
 
+}
+
+footer{
+    width: 7%;
+    display: flex;
 }
 
