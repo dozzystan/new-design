@@ -94,11 +94,11 @@ footer{
         margin: 0;
         width: 25%;
     }
-
+    footer{
+        width: 1.5%;
+        
+    }
+    
 }
 
-footer{
-    width: 7%;
-    display: flex;
-}
 
